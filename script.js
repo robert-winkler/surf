@@ -4,7 +4,7 @@
 })();
 
 function keybind(e) {
-       if(e.altKey && String.fromCharCode(e.keyCode) == '1') { hintMode(); }
+       if(e.altKey && String.fromCharCode(e.keyCode) == 'F') { hintMode(); }
   else if(e.altKey && String.fromCharCode(e.keyCode) == '2') { hintMode(true); }
 }
 
@@ -183,5 +183,6 @@ var keyId = {
   'U+0037' : '7',
   'U+0038' : '8',
   'U+0039' : '9',
+  'U+0070' : 'F',
 }
 
